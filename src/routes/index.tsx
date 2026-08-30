@@ -60,25 +60,25 @@ const certificates = [
     title: "Effective Time Management (MOOC)",
     issuer: "Tech Veda",
     meta: "Proctored examination · Nov 2025",
-    image: certTechVeda.url,
+    image: certTechVeda,
   },
   {
     title: "Skill Competency — AI to Aspire",
     issuer: "Microsoft × Skill India (NCVET)",
     meta: "NSQF Level 4 · Nov 2025",
-    image: certSkillIndia.url,
+    image: certSkillIndia,
   },
   {
     title: "ALGO-N-HUNT Coding Marathon",
     issuer: "OPTIMUS, LPU",
     meta: "Participation · Nov 2025",
-    image: certOptimus.url,
+    image: certOptimus,
   },
   {
     title: "Youth Empowerment & Skills (YES!+)",
     issuer: "The Art of Living",
     meta: "LPU, Kapurthala · Nov 2025",
-    image: certYes.url,
+    image: certYes,
   },
 ];
 
@@ -176,7 +176,7 @@ function Portfolio() {
         <div className="reveal relative mx-auto w-full max-w-sm">
           <div className="absolute -inset-3 rounded-[2rem] border border-gold/25" />
           <img
-            src={profile.url}
+            src={profile}
             alt="Portrait of Bhavya Yadav"
             className="relative aspect-4/5 w-full rounded-[1.6rem] object-cover object-top shadow-[var(--shadow-elegant)]"
           />
