@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import profile from "@/assets/profile.jpg.asset.json";
-import certTechVeda from "@/assets/cert-techveda.jpg.asset.json";
-import certOptimus from "@/assets/cert-optimus.jpg.asset.json";
-import certYes from "@/assets/cert-yes.jpg.asset.json";
-import certSkillIndia from "@/assets/cert-skillindia.jpg.asset.json";
+import profile from "@/assets/profile.jpg";
+import certTechVeda from "@/assets/cert-techveda.jpg";
+import certOptimus from "@/assets/cert-optimus.jpg";
+import certYes from "@/assets/cert-yes.jpg";
+import certSkillIndia from "@/assets/cert-skillindia.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
